@@ -1,0 +1,73 @@
+.img-header-mcd {
+    width: 70px;
+    height: 50px;
+    padding: 5px;
+    margin-right: 150px;
+}
+
+.img-header {
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+}
+
+.nav-item {
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.carousel-indicators {
+  list-style: none;
+}
+
+.title-section {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.card-promo {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.card {
+    width: 25%;
+    margin: 10px;
+}
+
+.button-section {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background-color: red;
+    width: 200px;
+    font-weight: bold;
+}
+
+.promo-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-fav-section {
+    background-color: white;
+}
+
+.card-menu {
+    width: 15%;
+    margin: 10px;
+}
+
+.card-menu-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-rewards {
+    margin-top: 25px;
+    width: 100%;
+}
