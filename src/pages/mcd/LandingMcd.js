@@ -143,6 +143,68 @@ let LandingMcd = () => {
             </div>
 
             <img src="https://www.mcdonalds.co.id/assets/img/mop/img_home-mop-3.webp" className="img-rewards"/>
+            <img src="https://www.mcdonalds.co.id/assets/img/mop/img_home-mop-2.webp" className="img-rewards"/>
+
+            <div className="banner-sikecil row">
+                <div className="col-lg-6 d-flex justify-content-center">
+                    <img src="https://d2vuyvo9qdtgo9.cloudfront.net/assets/img/home/img_home-birthday.webp" className="img_home-birthday"/>
+                </div>
+                <div className="col-lg-6 d-flex align-items-center" style={{ minHeight: "100%" }}>
+                    <div>
+                        <h1 style={{fontSize : "40px", fontWeight : "bold"}}>Ciptakan momen bahagia<br/> untuk si kecil</h1>
+                        <p>Semua hal seru hanya ada di Dunia Anak McDonald's</p>
+                        <button type="button" className="btn btn-danger button-section">Pelajari Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row" style={{padding: "75px"}}>
+                <div className="col-lg-6 d-flex align-items-center" style={{ minHeight: "100%" }}>
+                    <div>
+                        <h1 style={{fontSize : "40px", fontWeight : "bold"}}>Makin Hemat & Praktis dengan Aplikasi McDonald’s. Download Sekarang!</h1>
+                        <div>
+                            <img className={"btn-download"} src="https://www.mcdonalds.co.id/assets/img/common/button_appstore.png"/>
+                            <img className={"btn-download"} src="https://www.mcdonalds.co.id/assets/img/common/button_playstore.png"/>
+
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-6 d-flex justify-content-center">
+                    <img src="https://d2vuyvo9qdtgo9.cloudfront.net/app-section-footers/October2024/nQ7nOWJhpxMXx9OzFLGq.webp" className="img_home-birthday"/>
+                </div>
+            </div>
+
+            <div className="row p-5" style={{backgroundColor : "#333333"}}>
+                <div>
+                    <div className="col-lg-7 d-flex align-items-center justify-content-center">
+                        <h1 style={{color: "white"}}>Instagram McDonald's Indonesia</h1>
+                    </div>
+                    <div className="col-lg-5 d-flex align-items-center justify-content-center">
+                        <div className="promo-button-wrapper">
+                            <button type="button" className="btn btn-danger button-section">Lihat Semua Promo</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+
+            <div className="banner-sikecil row">
+                <div className="col-lg-6 d-flex justify-content-center">
+                    <img src="https://www.mcdonalds.co.id/assets/img/career/img_carrer_static.webp" className="img_home-birthday"/>
+                </div>
+                <div className="col-lg-6 d-flex align-items-center" style={{ minHeight: "100%" }}>
+                    <div>
+                        <h1 style={{fontSize : "40px", fontWeight : "bold"}}>Ayo belajar dan bekerja bersama!</h1>
+                        <p>di McDonald’s, kami lebih dari sekedar bisnis. Kami adalah komunitas tempat Anda berlatih keterampilan hidup dan sebagai wadah untuk mengejar serta mewujudkan impianmu.</p>
+                        <button type="button" className="btn btn-danger button-section">Lihat Lowongan</button>
+                    </div>
+                </div>
+                <div className="d-flex justify-content-center mt-3">
+                    <p style={{color: "white"}}>*Sesi pemotretan dilakukan dengan protokol kesehatan yang ketat dan karyawan telah divaksin dosis lengkap</p>
+                </div>
+            </div>
 
         </jsx>
     )
