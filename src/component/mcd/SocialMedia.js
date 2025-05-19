@@ -1,15 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
+import { images } from "../../services/mcdLanding";
 
 let SocialMedia = () => {
-    const images = [
-        "https://www.mcdonalds.co.id/assets/img/ig/img_home-instagram-1.webp",
-        "https://www.mcdonalds.co.id/assets/img/ig/img_home-instagram-2.webp",
-        "https://www.mcdonalds.co.id/assets/img/ig/img_home-instagram-3.webp",
-        "https://www.mcdonalds.co.id/assets/img/ig/img_home-instagram-4.webp",
-        "https://www.mcdonalds.co.id/assets/img/ig/img_home-instagram-5.webp",
-    ];
-
     return (
             <section>
                 <div className="p-5" style={{backgroundColor : "#333333"}}>
@@ -47,7 +40,7 @@ let SocialMedia = () => {
                     >
                         {images.map((img, i) => (
                             <div key={i} className="p-2">
-                                <img src={img} alt={`img-${i}`} className="img-fluid rounded" />
+                                <img src={img.image} alt={`img-${i}`} className="img-fluid rounded" />
                             </div>
                         ))}
                     </Slider>

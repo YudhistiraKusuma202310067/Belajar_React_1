@@ -1,4 +1,5 @@
 import React from "react";
+import { menu } from "../../services/mcdLanding";
 
 let Menu = () => {
     return (
@@ -6,7 +7,17 @@ let Menu = () => {
                 <div className="menu-fav-section">
                     <h1 className="title-section">Menu Favorit</h1>
                     <div className="card-promo">
-                        <div className="card card-menu">
+                        {menu?.map(x => {
+                            return(
+                                <div className="card card-menu" key={x.id}>
+                                    <img src={x.source} class="card-img-top" alt="..."/>
+                                    <div class="card-body">
+                                        <h5 class="card-title card-menu-title">{x.title}</h5>
+                                    </div>
+                                </div>
+                            )
+                        })}
+                        {/* <div className="card card-menu">
                             <img src="https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/S2b8K7g2tM6cDksrAdVv.webp" class="card-img-top" alt="..."/>
                             <div class="card-body">
                                 <h5 class="card-title card-menu-title">Big Mac®</h5>
@@ -35,7 +46,7 @@ let Menu = () => {
                             <div class="card-body">
                                 <h5 class="card-title card-menu-title">McNuggets®</h5>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="promo-button-wrapper">
                         <button type="button" className="btn btn-danger button-section">Lihat Semua Menu</button>

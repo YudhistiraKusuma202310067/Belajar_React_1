@@ -1,6 +1,9 @@
 import React from "react";
+import {banner} from "../../services/mcdLanding";
 
 let HeroBanner = () => {
+    console.log(banner);
+
     return (
             <section>
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -11,7 +14,14 @@ let HeroBanner = () => {
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        {banner?.map(x => {
+                            return(
+                                <div class="carousel-item active" key={x.id}>
+                                    <img class="d-block w-100" src={x.source} alt="First slide"/>
+                                </div>
+                            )
+                        })}
+                        {/* <div class="carousel-item active">
                             <img class="d-block w-100" src="https://d2vuyvo9qdtgo9.cloudfront.net/home-banners/April2025/bZBqwzU0hPuyF96I61U2.webp" alt="First slide"/>
                         </div>
                         <div class="carousel-item">
@@ -22,7 +32,7 @@ let HeroBanner = () => {
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="https://d2vuyvo9qdtgo9.cloudfront.net/home-banners/May2024/rIfkVUiRlgc5hJjCYBLH.webp" alt="Forth slide"/>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
